@@ -1,0 +1,53 @@
+.counter-container {
+  border: 2px solid #bdbdbd;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 0.5rem 0;
+  background-color: #ffffff; /* เทาอ่อน */
+  width: 500px;
+  height: 120px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.counter-title {
+  font-weight: bold;
+  color: #1976d2; /* น้ำเงิน */
+  margin-bottom: 0.5rem;
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.counter-value {
+  font-size: 1.5rem;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+/* ปุ่ม */
+.btn-minus {
+  background-color: #d32f2f; /* แดง */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-plus {
+  background-color: #388e3c; /* เขียว */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

@@ -1,0 +1,91 @@
+.add-container {
+  border: 2px solid #bdbdbd;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 20px;
+  background-color: #ffffff;
+  width: 600px;
+  height: 280px;
+  text-align: center;
+}
+
+.add-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1976d2; /* น้ำเงิน */
+}
+
+.add-display {
+  margin: 10px 0;
+}
+
+/* Badge สี */
+.badge {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.badge-gray {
+  background-color: #616161; /* เทา */
+}
+
+.badge-blue {
+  background-color: #1976d2; /* น้ำเงิน */
+}
+
+.add-variables {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.variable-container {
+  flex: 1;
+  margin: 0 5px;
+  padding: 0.5rem;
+  background-color: #ffffff; /* ขาว */
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.var-label {
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 5px;
+}
+
+.var-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.var-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+/* ปุ่ม */
+.btn-minus {
+  background-color: #d32f2f; /* แดง */
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-plus {
+  background-color: #388e3c; /* เขียว */
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

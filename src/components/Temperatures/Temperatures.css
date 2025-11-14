@@ -1,0 +1,81 @@
+.temperatures-container {
+  border: 2px solid #bdbdbd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.temperature-title {
+  color: #1976d2; /* น้ำเงิน */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.temperatures-variables {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.temperature-box {
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background: #ffffff;
+  text-align: center;
+}
+
+/* Badge ด้านบน */
+.temp-badge {
+  background-color: #1976d2; /* ฟ้า */
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin-bottom: 0.5rem;
+  display: inline-block; /* ไม่เต็มกล่อง */
+}
+
+.temp-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.temp-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.temp-value {
+  font-weight: bold;
+  font-size: 1rem;
+  min-width: 60px;
+  color: #1976d2;
+  text-align: center;
+}
+
+/* ปุ่ม */
+.btn-minus {
+  background-color: #d32f2f; /* แดง */
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-plus {
+  background-color: #388e3c; /* เขียว */
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
